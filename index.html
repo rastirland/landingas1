@@ -1,7 +1,8 @@
-<!--https://open.nytimes.com/css-grid-for-designers-f74a883b98f5!-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--this is how you link you code to external content, ie fonts, icons and your style sheet-->
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
@@ -10,15 +11,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>grid test</title>
 </head>
+<!-- grid container is the class that holds my whole site template in-->
 <div class="grid-container">
+    <!-- left and column-->
     <div class="text">
+        <!-- my nav against bar all links removed currently as im designing for assigment 1-->
             <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="cv.html">CV</a></li>
                     </ul>
          </div>
+         <!--right hand column-->
          <div class="text2">
              
                 <h3><strong>A little about me...</strong></h3>
@@ -26,6 +28,7 @@
                   <BR>
                 <div class="container">
                         <div>
+                            <!--image slider  https://www.w3schools.com/bootstrap/bootstrap_carousel.asp helped me with this code-->
                             <div class="carousel">
                                 <ul class="slides">
                                     <input type="radio" name="radio-buttons" id="img-1" checked />
@@ -37,6 +40,7 @@
                                             <label for="img-3" class="prev-slide">
                                                 <span>&lsaquo;</span>
                                             </label>
+                                            <!--this is how you change or add images to the slide-->
                                             <label for="img-2" class="next-slide">
                                               <span>&rsaquo;</span>
                                             </label>
@@ -58,6 +62,7 @@
                                     </li>
                                     <input type="radio" name="radio-buttons" id="img-3" />
                                     <li class="slide-container">
+                                        <!--slide image can be changed in the css when correcting the size and radius-->
                                         <div class="slide-image">
                                             <img src="images/s2.PNG">
                                         </div>
@@ -71,6 +76,7 @@
                                         </div>
                                     </li>
                                     <div class="carousel-dots">
+                                        <!-- this is the dots that change the slide to next image-->
                                         <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
                                         <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
                                         <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
@@ -83,6 +89,7 @@
                             </div>
                             <div class="social">
                             <p>    
+                                <!--these are my external links, to github and facebook etc-->
                                    <a href="http://www.github.com" target="_blank"><i class="fab fa-github fa-2x"></i></a>  
                                     <a href="http://www.facebook.com" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>   
                                     <a href="http://www.instagram.com" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>    
@@ -93,7 +100,9 @@
                             
          
                             <br>
+                            <!--hr is a line that goes across the screen-->
                             <hr>
+                            <!--text added and styled with css-->
                             <p><h3>Hi, my name is James. I'm currently studying at Northampton University and hopefully will achieve a
                                Bachelor's Degree in computer science, by the year 2021. My family are my world and here is a few pictures of us.</h3></p> 
                             <div class="social">

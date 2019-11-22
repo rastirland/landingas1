@@ -1,7 +1,9 @@
 html, body {
     height: 90%;
     margin: 0;
+    /*fonts from font api*/
     font-family: 'Lobster', cursive;
+    /*changes font size*/
     font-size: 0.5cm;
     background-color: #000
 }
@@ -9,14 +11,14 @@ hr{
 color: #555;
 }
 .social{
-    margin-left: 42%;
+    margin-left: 44%;
     margin-right: 40%;
     
 }
 h3
 {
 text-align: center;
-   color:  	#8A2BE2;
+   color:  	#000;
 
 }
 
@@ -34,12 +36,14 @@ text-align: center;
 
 }
 .text2{
+    /*this is the grid layout for my left hand columns*/
     grid-column-start: 2;
     grid-column-end: 3;
     background-color: #999;
     grid-row-end: 70%;
 }
 .text{
+    /* this is the grid layout for my columns on the right hand side*/
     grid-column-start: 1;
     grid-column-end: 2;
    background-color: #555;
@@ -50,6 +54,7 @@ li a {
     display: grid; 
    color: #000;
  }
+ /* this is the hover affect over my text links for nav bar*/
  li a:hover {
    background-color: #555;
    color: white;
@@ -58,8 +63,9 @@ li a {
     list-style-type: none;
     
  }
+ /* this positions the image slider into the correct position on the screen*/
  .carousel {
-    margin-left: 35%;
+    margin-left: 37%;
     margin-right: 40%;
 }
 
@@ -72,6 +78,7 @@ ul.slides {
     padding: 0;
     overflow: hidden;
     list-style: none;
+    /* this rounds the images*/
     border-radius: 5%;
     
    
@@ -161,7 +168,7 @@ ul.slides input {
     z-index: #999;
     text-align: center;
 }
-
+/*this changes the size and colour of the image slider dots, also using border radius to make them round*/
 .carousel-dots .carousel-dot {
     display: inline-block;
     width: 10px;
@@ -191,6 +198,7 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
 	opacity: 1;
 }
 input:checked + .slide-container .nav label { display: block; }
+/* this is the media query for my tablet layout*/
 @media (max-width: 800px){
     .body {
         height: 100%;
@@ -203,10 +211,12 @@ input:checked + .slide-container .nav label { display: block; }
         grid-column-end: 2;
     }
     .text ul li{
+        /*this changes the nav bar from list form to a inline list so it is responsive*/
         display: inline-block;
         margin: 3%;
     }
         .carousel {
+            /*changes the positioning for the image slider on a tablet*/
             margin-left: 24%;
             margin-right: 45%;
         }
@@ -214,6 +224,7 @@ input:checked + .slide-container .nav label { display: block; }
         ul.slides {
             display: block;
             position: relative;
+            /*image size for a tablet*/
             height: 56vh;
             width: 370px;
             margin: 0;
@@ -242,14 +253,17 @@ grid-area: auto;
 }
 }
 
+/*this is the media query for my phone layout*/
 @media (max-width: 400px){
     .body {
         height: 100%;
         margin: 0;
+        /*this is imported fonts api*/
         font-family: 'Lobster', cursive;
         font-size: 0.1cm;
     }
     .text2 {
+        /*this is what changes the layout of the left hand side for the grid for a phone*/
         grid-column-start: 1;
         grid-column-end: 2;
     }
@@ -258,6 +272,7 @@ grid-area: auto;
         margin: 3%;
     }
         .carousel {
+            /*this re positions the image slider to correct position for a phone*/
             margin-left: 31%;
             margin-right: 45%;
         }
@@ -265,6 +280,7 @@ grid-area: auto;
         ul.slides {
             display: block;
             position: relative;
+            /*this changes the size of the images for a phone layout */
             height: 20vh;
             width: 120px;
             margin: 0;
@@ -280,13 +296,16 @@ grid-area: auto;
     }
 
 .grid-container{
+    
     grid-template-columns: 1fr;
+    /*this changes the spacing between the nav bar and the main section for a phone*/
     grid-auto-rows: 60px 1fr;
 }
 .text{
 grid-area: auto;
 }
 .social {
+    /*this postions my social media icons for a phone*/
         margin-left: 27%;
         margin-right: 12%;
  
