@@ -297,7 +297,7 @@ grid-area: auto;
 }
 
 /*this is the media query for my phone layout*/
-@media (max-width: 374px){
+@media (max-width: 375px){
     .body {
         height: 100%;
         margin: 0;
