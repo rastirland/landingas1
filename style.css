@@ -325,12 +325,7 @@ grid-area: auto;
             position: relative;
             /*this changes the size of the images for a phone layout */
             height: 20vh;
-            width: 120px;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            list-style: none;
-            padding-right: 5%;
+            width: 160px;
     }
     .slide-image img {
         width: 100%;
@@ -354,9 +349,8 @@ grid-area: auto;
  
 }
 .container {
-    margin: 30px 85px;
-    max-height: 80%;
-        
+    margin: 5px 15px;
+    max-height: 80%;      
     }
     .gallery-item{
         max-width: 60%;
