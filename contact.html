@@ -27,24 +27,18 @@
          <!--right hand column-->
          <div class="text2">
                 <div class="formcontainer">
+                    <h3> If you wish to contact me please leave your name and contact number along side of your message, I shall reply as soon as i can.</h3>
                     <form action="mailto:rastirland@hotmail.com">
+                          
+                        <p> <label for="subject">subject</label></p>
+                        <select id="subject" name="subject">
+                        <option value="Business">Business</option>
+                        <option value="Personal">Personal</option>
+                        <option value="Other">Other</option>
+                      </select>
+                        <p><label for="body">Message</label></p>
+                        <textarea id="body" name="body" inputmode="tel" placeholder="Write something.." style="height:200px"></textarea>
 
-                      <p><label for="fname">First Name</label> </p>
-                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                    
-                     <p> <label for="lname">Surname</label></p>
-                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                    
-                       <p> <label for="country">Reason for contact?</label></P>
-                        <select id="Contact Type" name="contact type">
-                          <option value="Business">Business</option>
-                          <option value="Personal">Personal</option>
-                          <option value="Other">Other</option>
-                        </select>
-                    
-                        <p><label for="subject">Subject</label></p>
-                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
-                    
                         <p><input type="submit" value="Submit"></p>
                     
                       </form>
