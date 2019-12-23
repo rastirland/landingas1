@@ -269,7 +269,7 @@ input:checked + .slide-container .nav label { display: block; }
     .body {
         height: 100%;
         margin: 0;
-        font-family: 'Lobster', cursive;
+        font-family: 'oswarld', cursive;
         font-size: 0.1cm;
     }
     .text2 {
@@ -353,7 +353,7 @@ grid-area: auto;
         height: 100%;
         margin: 0;
         /*this is imported fonts api*/
-        font-family: 'Lobster', cursive;
+        font-family: 'oswarld', cursive;
         font-size: 0.1cm;
     }
     .text2 {
