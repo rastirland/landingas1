@@ -106,14 +106,14 @@ text-align: center;
     grid-column-start: 2;
     grid-column-end: 3;
     background-color: #999;
-    grid-row-end: 70%;
+   
 }
 .text{
     /* this is the grid layout for my columns on the right hand side*/
     grid-column-start: 1;
     grid-column-end: 2;
    background-color: #555;
-    grid-row-end: 10%;
+    
 }
       
 li a {
