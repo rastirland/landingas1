@@ -2,7 +2,8 @@ html, body {
     height: 90%;
     margin: 0;
     /*fonts from font api*/
-    font-family: 'oswarld', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Public Sans', sans-serif;
     /*changes font size*/
     font-size: 0.5cm;
     background-color: #000
