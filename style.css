@@ -15,6 +15,7 @@ h4{
 h5{
     text-align: center;
     color:  	#000;
+/*This is how create the undeline attribute to text, and the font size also changed*/
     text-decoration: underline;
     font-size: large;
 }
@@ -34,7 +35,7 @@ the padding was added to fill the page*/
 {
 text-align: center;
 list-style-type: circle;
-columns: 3;
+columns: 3;/* this sets the list into a 3 column list*/
 padding-top: 1.5%;
 padding-bottom: 1.5%;
 padding-left: 5%;
@@ -102,10 +103,6 @@ max-height: 80%;
 }
 .gallery-item:hover{
     box-shadow: 0 10px 20px rgba(0,0,0,0.8);
-}
-hr{
-color: #555;
-text-align: center;
 }
 .social{
     display: inline;
