@@ -28,6 +28,8 @@ h1{
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 .ul2
+/*ul stlye and padding for cv page, this was created so i could make changes without affecting other ul lists
+the padding was added to fill the page*/
 {
 text-align: center;
 list-style-type: circle;
