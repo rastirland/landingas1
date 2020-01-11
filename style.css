@@ -7,8 +7,32 @@ html, body {
     font-size: 0.5cm;
     background-color: #000
 }
+h4{
+    font-size: medium;
+    text-align: center;
+}
+h5{
+    text-align: center;
+    color:  	#000;
+    text-decoration: underline;
+    font-size: large;
+}
 h1{
     text-align: center;
+}
+.hr2 {
+    /*Css-tricks.com. (2020). Simple Styles for <hr>'s. [online] Available at: https://css-tricks.com/examples/hrs/ [Accessed 11 Jan. 2020].
+     this was used to find differnt hr style's,  .hr is a class*/
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.ul2
+{
+text-align: center;
+list-style-type: circle;
+columns: 3;
+padding-bottom: 1%;
 }
 
  
@@ -263,7 +287,16 @@ input#img-5:checked ~ .carousel-dots label#img-dot-5,
 input#img-6:checked ~ .carousel-dots label#img-dot-6 {
 	opacity: 1;
 }
-input:checked + .slide-container .nav label { display: block; }
+input:checked + .slide-container .nav label { display: block; 
+}
+
+
+
+
+
+
+
+
 /* this is the media query for my tablet layout*/
 @media (max-width: 800px){
     .body {
