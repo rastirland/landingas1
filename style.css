@@ -39,9 +39,10 @@ padding-top: 1.5%;
 padding-bottom: 1.5%;
 padding-left: 5%;
 padding-right: 5%;
+
 }
 
- 
+ /* This code styles to form i used in my contact section*/
  input[type=text], select, textarea {
     width: 100%; 
     padding: 7px; 
@@ -52,7 +53,7 @@ padding-right: 5%;
     margin-bottom: 40px; 
     resize: vertical 
   }
-  
+/*This is the code used to style the submit button*/
   input[type=submit] {
     background-color: black;
     color: white;
@@ -62,13 +63,13 @@ padding-right: 5%;
     cursor: pointer;
   }
   
-
+/*this code places hover colour effect style over the submit button*/
   input[type=submit]:hover {
     background-color: darkgrey;
   }
   
- 
-  .formcontainer {
+ /*container used to house the form code, this will be used again when creating media queries*/
+.formcontainer {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
@@ -117,7 +118,7 @@ text-align: center;
    color:  	#000;
 
 }
-
+/*This container is used to create the grid and column template used for the entire website*/
 .grid-container{
     margin: 2% 1% 0 1%;
     display: grid;
