@@ -2,6 +2,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!--this is how you link you code to external content, ie fonts, icons and your style sheet-->
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald|Public+Sans&display=swap" rel="stylesheet"> 
@@ -33,73 +37,26 @@
                 <div class="container">
                         <div>
                             <!--image slider  https://www.w3schools.com/bootstrap/bootstrap_carousel.asp helped me with this code-->
-                            <div class="carousel">
-                                <ul class="slides">
-                                    <input type="radio" name="radio-buttons" id="img-1" checked />
-                                    <li class="slide-container">
-                                        <div class="slide-image">
-                                            <img src="s6.jpg" alt="Work Photo">
-                                        </div>
-                                        <div class="carousel-controls">
-                                            <label for="img-3" class="prev-slide">
-                                                <span>&lsaquo;</span>
-                                            </label>
-                                            <!--this is how you change or add images to the slide-->
-                                            <label for="img-2" class="next-slide">
-                                              <span>&rsaquo;</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <input type="radio" name="radio-buttons" id="img-2" />
-                                    <li class="slide-container">
-                                        <div class="slide-image">
-                                            <img src="s5.jpg" alt="Work Photo">
-                                        </div>
-                                        <div class="carousel-controls">
-                                            <label for="img-1" class="prev-slide">
-                                                <span>&lsaquo;</span>
-                                            </label>
-                                            <label for="img-3" class="next-slide">
-                                                <span>&rsaquo;</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <input type="radio" name="radio-buttons" id="img-3" />
-                                    <li class="slide-container">
-                                        <!--slide image can be changed in the css when correcting the size and radius-->
-                                        <div class="slide-image">
-                                            <img src="s2.jpg" alt="Work Photo">
-                                        </div>
-                                        <div class="carousel-controls">
-                                            <label for="img-2" class="prev-slide">
-                                                <span>&lsaquo;</span>
-                                            </label>
-                                            <label for="img-1" class="next-slide">
-                                                <span>&rsaquo;</span>
-                                            </label>
-                                        </div>
-                                    </li>
-                                    <div class="carousel-dots">
-                                        <!-- this is the dots that change the slide to next image-->
-                                        <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
-                                        <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
-                                        <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
-                                    </div>
-                                </ul>
-                            </div>
+                           
                             
-                            </div>
-                            
-                            </div>
+            
 
+                            <div class="carousel">
+                                <a class="carousel-item" href="#one!"><img src="s2.jpg"></a>
+                                <a class="carousel-item" href="#two!"><img src="s5.jpg"></a>
+                                <a class="carousel-item" href="#three!"><img src="s6.jpg"></a>
+                                <a class="carousel-item" href="#four!"><img src="2.jfif"></a>
+                                <a class="carousel-item" href="#five!"><img src="2.jfif"></a>
+                              </div>
+                              </div>    
                             
-         
+         </div>
                             <br>
                             <!--hr is a line that goes across the screen-->
                             <hr>
                             <!--text added and styled with css-->
-                            <p><h3>Hi, my name is James. I'm currently studying at Northampton University and hopefully will achieve a
-                               Bachelor's Degree in computer science, by the year 2021. My family are my world, as wel as studying im a trained security officer. Here is a few pictures of me whilst at work.</h3>
+                            <p><h4>Hi, my name is James. I'm currently studying at Northampton University and hopefully will achieve a
+                               Bachelor's Degree in computer science, by the year 2021. My family are my world, as wel as studying im a trained security officer. Here is a few pictures of me whilst at work.</h4>
                             
                                
  
@@ -117,5 +74,7 @@
                             </footer>
                             </div>
             </div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            <script src="main.js" async></script> 
 </body>
 </html>
